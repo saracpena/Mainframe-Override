@@ -30,6 +30,16 @@
 
 -- 5. There will only be one EmptyStack employee with a forum account. Use their credentials
 --    to access `node mainframe`, which will output a new `sql` file for you to run.
+-- \d emptystack_accounts;
+    -- SELECT *
+    -- FROM emptystack_accounts
+    -- WHERE last_name = 'Steele';
+ 
+    SELECT *
+    FROM forum_accounts
+    WHERE first_name IN ('Andrew', 'Lance')
+    AND last_name = 'Steele';
+
 
 -- 6. Find the message in `emptystack_messages` that mentions a project involving
 --    self-driving taxis. That message is sent from an admin account and also reveals
