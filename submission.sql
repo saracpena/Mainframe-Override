@@ -75,5 +75,14 @@
 --  your-boss-99 | notagaincarter
 
 -- 8. Get the ID of the project from `emptystack_projects`.
+    -- SELECT id
+    -- FROM emptystack_projects
+    -- WHERE code = 'TAXI';
+    -- !ANSWER
+
+    --     id    
+    -- ----------
+    --  DczE0v2b
+
 
 -- 9. Use that information to stop the project: `node mainframe -stop`!
