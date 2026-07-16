@@ -23,6 +23,10 @@
 -- excluding originally found 'Steele' account there are 2 other accounts, making it 3 total
 
 -- 4. Find all accounts in `emptystack_accounts` with the same last name.
+-- SELECT *
+-- FROM emptystack_accounts
+-- WHERE last_name ILIKE 'steele';
+-- Andrew and Lance
 
 -- 5. There will only be one EmptyStack employee with a forum account. Use their credentials
 --    to access `node mainframe`, which will output a new `sql` file for you to run.
